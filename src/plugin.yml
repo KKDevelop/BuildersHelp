@@ -1,0 +1,16 @@
+name: BuildersHelp
+main: me.kkdevs.build
+version: "1.0"
+api: ["1.0.8"]
+author: kkdevs
+
+commands:
+  w:
+    description: w
+    usage: "/w"
+    permission: w.use
+
+permissions:
+  w.use:
+    description: "w Permission"
+    default: op
